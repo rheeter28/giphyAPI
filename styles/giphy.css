@@ -1,0 +1,14 @@
+body{
+  font-family: Arial, Helvetica, sans-serif;
+  color: black;
+  background-image: url(/projects/giphyAPI/assets/yellow\ background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.card{
+  
+  margin-bottom: 15px;
+  flex-direction: row;
+  margin-left: 35%;
+}

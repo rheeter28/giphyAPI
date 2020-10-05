@@ -9,12 +9,20 @@
   }).then(function(json){
     displayResults(json)
   })
- 
+document.querySelector('img');
+
+
   function displayResults(json){
     for(let i = 0; i <json.data.length; i++){
       let image = json.data[i].embed_url
-      document.getElementById('gifholder').innerHTML += `<iframe src='${image}'></iframe>`;
-  }
+      document.getElementById('gifholder').innerHTML += 
+      `<iframe
+      class="card text-white bg-dark mb-3" 
+      alt="gifImage"
+      border='solid black'
+      src='${image}'></iframe>`;
+      
+    }
 }
   
   // Is there a way to dynamically (changing with the given input) add HTML to the index.html for EACH item?
