@@ -9,7 +9,7 @@
   }).then(function(json){
     displayResults(json)
   })
-document.querySelector('img');
+document.querySelector('circle');
 
 
   function displayResults(json){

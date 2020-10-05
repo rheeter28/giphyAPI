@@ -12,3 +12,11 @@ body{
   flex-direction: row;
   margin-left: 40%;
 }
+
+
+.circle{
+  border-radius: 10px;
+  background-color: #e92929;
+  width: 10%;
+}
+   
