@@ -17,6 +17,10 @@ body{
 .circle{
   border-radius: 10px;
   background-color: #e92929;
-  width: 10%;
+  width:px;
+}
+
+.container{
+  margin-left: 35%;
 }
    

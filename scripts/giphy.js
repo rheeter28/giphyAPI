@@ -9,9 +9,8 @@
   }).then(function(json){
     displayResults(json)
   })
-document.querySelector('circle');
 
-
+document.getElementsByClassName('cirlce');
   function displayResults(json){
     for(let i = 0; i <json.data.length; i++){
       let image = json.data[i].embed_url
