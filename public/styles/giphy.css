@@ -1,7 +1,7 @@
 body{
   font-family: Arial, Helvetica, sans-serif;
   color: black;
-  background-image: url(/projects/giphyAPI/assets/yellow\ background.jpg);
+  background-image: url(/projects/giphyAPI/public/assets/yellow\ background.jpg);
   background-repeat: no-repeat;
   background-size: cover;
 }
